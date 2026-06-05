@@ -23,8 +23,6 @@ navLinks?.querySelectorAll('a').forEach(link => {
 // —— Interactive CRM screenshot tabs ——
 const tabs = document.querySelectorAll('.mockup-tab');
 const screens = document.querySelectorAll('.mockup-screen');
-let autoRotateTimer = null;
-let currentTabIndex = 0;
 
 function switchTab(targetTab) {
   // Remove active from all
@@ -35,42 +33,14 @@ function switchTab(targetTab) {
   targetTab.classList.add('active');
   const screenId = 'screen-' + targetTab.dataset.tab;
   document.getElementById(screenId)?.classList.add('active');
-
-  // Track index for auto-rotate
-  tabs.forEach((t, i) => { if (t === targetTab) currentTabIndex = i; });
-}
-
-function startAutoRotate() {
-  autoRotateTimer = setInterval(() => {
-    currentTabIndex = (currentTabIndex + 1) % tabs.length;
-    switchTab(tabs[currentTabIndex]);
-  }, 3500);
-}
-
-function stopAutoRotate() {
-  clearInterval(autoRotateTimer);
 }
 
 // Manual tab click
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
-    stopAutoRotate();
     switchTab(tab);
-    // Resume auto-rotate after 8 seconds of inactivity
-    setTimeout(startAutoRotate, 8000);
   });
 });
-
-// Start auto-rotate when hero is in view
-const heroObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) startAutoRotate();
-    else stopAutoRotate();
-  });
-}, { threshold: 0.3 });
-
-const heroVisual = document.querySelector('.hero-visual');
-if (heroVisual) heroObserver.observe(heroVisual);
 
 // —— Scroll reveal ——
 function revealOnScroll() {

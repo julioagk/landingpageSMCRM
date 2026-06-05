@@ -485,6 +485,23 @@ body {
   display: block;
 }
 
+.mockup-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  gap: 6px;
+  opacity: 0.8;
+}
+
+.mockup-caption svg {
+  color: var(--blue);
+  flex-shrink: 0;
+}
+
 /* =============================================
    SECTIONS
    ============================================= */
