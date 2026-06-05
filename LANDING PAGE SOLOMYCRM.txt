@@ -1,0 +1,29 @@
+LANDING PAGE SOLOMYCRM 
+1. Tres beneficios valiosos
+Centraliza toda tu operación: Administra clientes, prospectos, tareas, seguimientos y actividades desde un solo lugar, con información organizada y siempre accesible.
+Implementación rápida y sencilla: Su diseño intuitivo permite que tu equipo comience a utilizar la plataforma desde el primer día, reduciendo tiempos de capacitación y adaptación.
+Visibilidad total de tus procesos: Visualiza de forma clara el estado de cada cliente, las actividades pendientes y las oportunidades de negocio para tomar mejores decisiones.
+2. Paleta de colores (Propuesta sugerida para el CRM)
+Verde Esmeralda o Menta (#10B981): Transmite crecimiento comercial, organización, dinamismo y frescura.
+Gris Oscuro / Antracita (#1F2937): Para textos y estructuras principales, dando un aspecto sumamente limpio, moderno y profesional.
+Blanco Puro (#FFFFFF): Como fondo predominante para que las capturas reales del sistema resalten y se perciba la simplicidad de la interfaz.
+3. 3-4 Características
+Conoce la plataforma antes de contratar: Se muestran capturas reales del sistema (incluyendo el panel de clientes y el calendario) para ver exactamente cómo opera la herramienta desde el primer momento.
+Actualizaciones constantes: Implementación de mejoras continuas para optimizar el rendimiento, la estabilidad y asegurar que tu equipo trabaje con una herramienta moderna y eficiente.
+Adaptación a tu negocio: Capacidad de desarrollar y ajustar módulos específicos de acuerdo con tu industria, procesos comerciales y requerimientos operativos.
+Innovación enfocada en resultados: Nuevas funcionalidades constantes que priorizan la productividad y evitan características innecesarias que compliquen el trabajo diario.
+4. Credibilidad (¿Por qué confiar en nosotros?)
+Transparencia y confianza: Mostramos exactamente lo que ofrecemos a través de capturas reales del sistema, funcionalidades claras y una experiencia almacenable desde el inicio.
+Soporte cercano: Acompañamiento directo a los clientes durante la implementación y el uso de la plataforma, brindando atención rápida y soluciones prácticas.
+Compromiso con la mejora continua: Una herramienta que evoluciona constantemente para ayudar a las empresas a gestionar mejor sus relaciones comerciales y aumentar su productividad.
+5. Botón CTA
+Texto exacto: Prueba nuestro CRM gratis
+
+EL BOTON CTA TE REDIRIGA A UN FORMULARIO
+
+que pedirá 
+NOMBRE
+APELLIDO
+CORREO ELECTRONICO
+
+se usara formspree 

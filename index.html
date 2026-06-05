@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SoloMyCRM, la plataforma CRM intuitiva que centraliza tu operación, simplifica el seguimiento de clientes y potencia el crecimiento de tu negocio desde el primer día." />
+  <title>SoloMyCRM — El CRM que tu equipo necesita</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <img src="logosolomycrm.png" alt="SoloMyCRM" class="logo-img" />
+        <span class="logo-text">SoloMy<span class="logo-accent">CRM</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#confianza">Confianza</a>
+        <a href="formulario.html" class="nav-cta" id="navCtaBtn">Prueba gratis</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-glow"></div>
+
+    <div class="hero-inner">
+      <!-- LEFT: Copy -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Plataforma CRM · Disponible ahora
+        </div>
+        <h1 class="hero-title">
+          Gestiona clientes<br />
+          y <span class="gradient-text">prospectos con facilidad</span>
+        </h1>
+        <p class="hero-subtitle">
+          SoloMyCRM centraliza toda tu operación comercial en un solo lugar: clientes, prospectos, seguimientos y oportunidades. Todo claro, rápido y accesible desde el primer día.
+        </p>
+        <div class="hero-actions">
+          <a href="formulario.html" class="btn btn-primary" id="heroCta">
+            <span>Prueba nuestro CRM gratis</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#beneficios" class="btn btn-ghost">
+            Ver beneficios
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">Día 1</span>
+            <span class="stat-label">Implementación</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Transparente</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">Siempre</span>
+            <span class="stat-label">Actualizado</span>
+          </div>
+        </div>
+      </div>
+      <!-- /hero-content -->
+
+      <!-- RIGHT: Interactive CRM mockup -->
+      <div class="hero-visual">
+        <div class="dashboard-mockup">
+          <!-- Browser chrome -->
+          <div class="mockup-chrome">
+            <div class="chrome-dots">
+              <span class="cdot cdot-r"></span>
+              <span class="cdot cdot-y"></span>
+              <span class="cdot cdot-g"></span>
+            </div>
+            <div class="chrome-bar">app.solomycrm.com</div>
+          </div>
+
+          <!-- Tab navigation -->
+          <div class="mockup-tabs" id="mockupTabs">
+            <button class="mockup-tab active" data-tab="dashboard">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+              Dashboard
+            </button>
+            <button class="mockup-tab" data-tab="calendario">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Calendario
+            </button>
+            <button class="mockup-tab" data-tab="prospectos">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              Prospectos
+            </button>
+            <button class="mockup-tab" data-tab="clientes">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              Clientes
+            </button>
+          </div>
+
+          <!-- Screen panels — real screenshots -->
+          <div class="mockup-screens" id="mockupScreens">
+            <div class="mockup-screen active" id="screen-dashboard">
+              <img src="pantalla principal solomycrm.png" alt="Dashboard SoloMyCRM" />
+            </div>
+            <div class="mockup-screen" id="screen-calendario">
+              <img src="pantalla calendario solomycrm.png" alt="Calendario SoloMyCRM" />
+            </div>
+            <div class="mockup-screen" id="screen-prospectos">
+              <img src="pantalla prospectos solomycrm.png" alt="Prospectos SoloMyCRM" />
+            </div>
+            <div class="mockup-screen" id="screen-clientes">
+              <img src="Pantalla clientes solomycrm.png" alt="Clientes SoloMyCRM" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /hero-visual -->
+    </div>
+    <!-- /hero-inner -->
+  </section>
+
+  <!-- ========== BENEFICIOS ========== -->
+  <section class="section" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Beneficios clave</div>
+        <h2 class="section-title">Todo lo que necesitas,<br /><span class="gradient-text">en un solo lugar</span></h2>
+        <p class="section-sub">Diseñado para que tu equipo trabaje mejor sin curvas de aprendizaje.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card" id="benefit1">
+          <div class="benefit-icon-wrap">
+            <svg class="benefit-svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Centraliza toda tu operación</h3>
+          <p>Administra clientes, prospectos, tareas, seguimientos y actividades desde un solo lugar, con información organizada y siempre accesible.</p>
+          <div class="benefit-glow"></div>
+        </div>
+
+        <div class="benefit-card featured" id="benefit2">
+          <div class="benefit-icon-wrap">
+            <svg class="benefit-svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3>Implementación rápida y sencilla</h3>
+          <p>Su diseño intuitivo permite que tu equipo comience a utilizar la plataforma desde el primer día, reduciendo tiempos de capacitación y adaptación.</p>
+          <div class="benefit-glow"></div>
+          <div class="featured-badge">Más popular</div>
+        </div>
+
+        <div class="benefit-card" id="benefit3">
+          <div class="benefit-icon-wrap">
+            <svg class="benefit-svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Visibilidad total de tus procesos</h3>
+          <p>Visualiza de forma clara el estado de cada cliente, las actividades pendientes y las oportunidades de negocio para tomar mejores decisiones.</p>
+          <div class="benefit-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CARACTERISTICAS ========== -->
+  <section class="section" id="caracteristicas">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Características</div>
+        <h2 class="section-title">Todo lo que necesitas<br /><span class="gradient-text">para cerrar más ventas</span></h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-item" id="feat1">
+          <div class="feature-num">01</div>
+          <div class="feature-content">
+            <div class="feature-icon-svg">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3>Conoce la plataforma antes de contratar</h3>
+            <p>Mostramos capturas reales del sistema, incluyendo el panel de clientes y el calendario, para que veas exactamente cómo opera la herramienta desde el primer momento.</p>
+          </div>
+        </div>
+
+        <div class="feature-item" id="feat2">
+          <div class="feature-num">02</div>
+          <div class="feature-content">
+            <div class="feature-icon-svg">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+            </div>
+            <h3>Actualizaciones constantes</h3>
+            <p>Implementamos mejoras continuas para optimizar el rendimiento, la estabilidad y asegurar que tu equipo siempre trabaje con una herramienta moderna y eficiente.</p>
+          </div>
+        </div>
+
+
+        <div class="feature-item" id="feat3">
+          <div class="feature-num">03</div>
+          <div class="feature-content">
+            <div class="feature-icon-svg">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+            </div>
+            <h3>Innovación enfocada en resultados</h3>
+            <p>Nuevas funcionalidades constantes que priorizan la productividad y evitan características innecesarias que compliquen el trabajo diario de tu equipo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONFIANZA ========== -->
+  <section class="section" id="confianza">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">¿Por qué confiar en nosotros?</div>
+        <h2 class="section-title">Credibilidad que<br /><span class="gradient-text">se construye con hechos</span></h2>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-card" id="trust1">
+          <div class="trust-icon-svg">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Transparencia y confianza</h3>
+          <p>Mostramos exactamente lo que ofrecemos a través de capturas reales del sistema, funcionalidades claras y una experiencia utilizable desde el inicio.</p>
+        </div>
+        <div class="trust-card" id="trust2">
+          <div class="trust-icon-svg">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Soporte cercano</h3>
+          <p>Acompañamiento directo durante la implementación y el uso de la plataforma, brindando atención rápida y soluciones prácticas cuando las necesitas.</p>
+        </div>
+        <div class="trust-card" id="trust3">
+          <div class="trust-icon-svg">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Compromiso con la mejora continua</h3>
+          <p>Una herramienta que evoluciona constantemente para ayudar a las empresas a gestionar mejor sus relaciones comerciales y aumentar su productividad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA FINAL ========== -->
+  <section class="cta-section" id="ctaSection">
+    <div class="cta-glow"></div>
+    <div class="container cta-content">
+      <h2 class="cta-title">¿Listo para transformar<br />la gestión de tus clientes y prospectos?</h2>
+      <p class="cta-sub">Únete hoy y empieza a usar SoloMyCRM. Uno de nuestros asesores te guiará desde el primer paso.</p>
+      <a href="formulario.html" class="btn btn-primary btn-large" id="finalCta">
+        <span>Prueba nuestro CRM gratis</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <div class="cta-checks">
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Sin permanencia
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Implementación en el día 1
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Soporte incluido
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo">
+        <img src="logosolomycrm.png" alt="SoloMyCRM" class="logo-img" />
+        <span class="logo-text">SoloMy<span class="logo-accent">CRM</span></span>
+      </a>
+      <p class="footer-copy">© 2026 SoloMyCRM. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
