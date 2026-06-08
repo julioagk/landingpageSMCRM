@@ -143,7 +143,7 @@ function showSuccess() {
 
 function showFormsprreeNotice() {
   // Fallback when Formspree ID isn't configured
-  console.warn('⚠️ Formspree: reemplaza YOUR_FORM_ID en formulario.html con tu ID real.');
+  console.warn('⚠️ Formspree: reemplaza YOUR_FORM_ID en formulario con tu ID real.');
   showSuccess(); // still show success for demo purposes
 }
 
