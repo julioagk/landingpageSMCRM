@@ -108,11 +108,11 @@ body {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .logo-img {
-  height: 36px;
+  height: 42px;
   width: auto;
   display: block;
 }

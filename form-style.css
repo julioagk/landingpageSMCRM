@@ -119,12 +119,12 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   text-decoration: none;
 }
 
 .logo-img {
-  height: 30px;
+  height: 36px;
   width: auto;
   display: block;
 }
