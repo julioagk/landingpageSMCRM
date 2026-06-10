@@ -108,20 +108,22 @@ body {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 0;
 }
 
 .logo-img {
-  height: 32px;
+  height: 55px;
   width: auto;
   display: block;
+  margin-left: -36px;
+  margin-right: -32px;
 }
 
 .logo-text {
   font-family: var(--font);
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 900;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
   color: var(--text);
 }
 
