@@ -124,7 +124,7 @@ body {
 }
 
 .logo-img {
-  height: 36px;
+  height: 28px;
   width: auto;
   display: block;
 }
@@ -132,7 +132,7 @@ body {
 .logo-text {
   font-family: var(--font-main);
   font-weight: 900;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: -0.5px;
   color: var(--text);
 }
